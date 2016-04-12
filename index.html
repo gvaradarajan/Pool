@@ -12,7 +12,7 @@
       var canvas = document.getElementById('canvas');
       var c = canvas.getContext('2d');
       var newObj = new Pool.MovingObject({pos: [375, 375],
-                                     vel: [3, 5],
+                                     vel: {0: 3, 1: 5},
                                      radius: 20,
                                      color: "#00FF00"});
       setInterval(function () {
