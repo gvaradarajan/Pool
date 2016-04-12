@@ -7,12 +7,12 @@
   <body>
     <canvas id="canvas" width="750" height="750"></canvas>
     <script src="lib/movingObject.js"></script>
-    <script src="lib/pool.js"></script>
+    <script src="lib/bundle.js"></script>
     <script>
       var canvas = document.getElementById('canvas');
       var c = canvas.getContext('2d');
       var newObj = new Pool.MovingObject({pos: [375, 375],
-                                     vel: {0: 3, 1: 5},
+                                     vel: Pool.vector(3,5),
                                      radius: 20,
                                      color: "#00FF00"});
       setInterval(function () {
