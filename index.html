@@ -3,9 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="/index.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
+    <h1>Junior Pool</h1>
     <canvas id="canvas" width="400" height="750"></canvas>
+    <h1 class="game-status"></h1>
+    <h2>DIRECTIONS:</h2>
+    <ol>
+      <li>Click on the cue ball and hold</li>
+      <li>Drag left and right to change the angle.
+          Drag closer and farther away from the ball to increase
+          or decrease the force on the ball respectively.</li>
+      <li>When you're ready to hit the ball, release the mouse button</li>
+      <li>When the balls have stopped moving, the "READY" signal will appear
+          and you can take another turn</li>
+      <li>The game ends when you've gotten all the balls in the pockets or you scratch</li>
+    </ol>
     <script src="lib/bundle.js"></script>
     <script>
       // setInterval(function () {
