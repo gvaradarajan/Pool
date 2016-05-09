@@ -3,6 +3,14 @@ h1 {
   font-family: 'Aldrich', sans-serif;
 }
 
+button {
+  display: none;
+  margin: auto;
+  height: 50px;
+  width: 100px;
+  font-family: 'Aldrich', sans-serif;
+}
+
 .canvas-cont {
   width: 400px;
   height: 750px;
