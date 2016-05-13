@@ -15,10 +15,25 @@ button {
   width: 400px;
   height: 750px;
   margin: auto;
+  z-index: 0;
   display: block;
   border: 20px solid #D35400;
 }
 
+.overflow-cont {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  left: 10%;
+  top: 0;
+  display: block;
+  z-index: 100;
+}
+
+/*.inactive {
+  display: block;
+}*/
 
 .modal {
   position: absolute;
