@@ -31,6 +31,11 @@ button {
   z-index: 100;
 }
 
+.overflow-cont > canvas {
+  margin: auto;
+  display: block;
+}
+
 /*.inactive {
   display: block;
 }*/
